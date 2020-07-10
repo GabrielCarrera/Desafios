@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.under{
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(224,116,116,1) 1%, rgba(212,212,121,1) 21%, rgba(150,223,58,1) 41%, rgba(32,193,191,1) 61%, rgba(39,47,191,1) 81%, rgba(112,26,164,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-style{
+    float: left;
+    height: 30%;
+    width: 500px;
+    margin-left: 35%;
+    margin-top: 15%;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+#selection {
+    margin-top: 50px;
+    margin-left: 160px;
+    width: 40%;
+    height: 10%;
+    font-style: oblique;
+    outline: none;
+    border-radius: 20px;
+}
+
+h2{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#place{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: -5px;
+    margin-left: 90px;
+    height: 10%;
+    width: 40%;
+    outline: none;
+}
+
+#medidas{
+    margin-top: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 15px;
+    height: 12%;
+    outline: none;
+}
+
+#button{
+    height: 10%;
+    font-size: 15px;
+    background-color: #FFF;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 220px;
+    outline: none;
+}

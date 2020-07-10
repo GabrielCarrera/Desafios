@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en, pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERSORES PRÁTICOS</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="under">
+        <div class="box-style" id="box-selection">
+            <h2>Escolha um tipo de conversão</h2>
+            <select onchange="change()" id="selection">
+                <option value="">-- Escolha a medida --</option>
+                <option value="temperature">Temperatura</option>
+                <option value="width">Comprimento</option>
+                <option value="velocity">Velocidade</option>
+            </select><br>
+            <input placeholder="Insira aqui o valor da medida..." id="place">
+            <select onchange="calculate()" id="medidas">
+                <option value="">-- Escolha --</option>
+                <option value="km">Quilômetro</option>
+                <option value="m">Metro</option>
+                <option value="cm">Centímetro</option>
+                <option value="mm">Milímetro</option>
+                <option value="mc">Micrômetro</option>
+                <option value="nm">Nanômetro</option>
+                <option value="mi">Milha</option>
+                <option value="yd">Jarda</option>
+                <option value="ft">Pé</option>
+                <option value="inch">Polegada</option>
+                <option value="mn">Milha Náutica</option>
+            </select><br>
+            <span id="resultado" style="display: none;"></span>
+        </div>
+    </div>
+</body>
+
+</html>
